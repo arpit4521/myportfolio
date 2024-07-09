@@ -1,0 +1,286 @@
+body{
+    margin: 0px;
+    color: #082f49;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Start */
+
+.header-container{
+    background-color: #93c5fd;
+    height: 100vh;
+}
+
+.header{
+    font-size: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    position: relative;
+    background-color: #93c5fd
+}
+
+.name{
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.directions{
+    display: flex;
+    width: 20%;
+    max-width: 250px;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 920px) {
+    .header{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .directions{
+        width: 40%;
+        right: 10px;
+    }
+}
+
+/* Header End */
+
+/* Home Start */
+
+
+.home{
+    display: flex;
+    margin-top: 30vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #93c5fd;
+}
+
+.greetings{
+    display: flex;
+    flex-direction: column;
+}
+
+.Big{
+    font-size: max(5vh, 5vw);
+    font-weight: bold;
+}
+
+.hello{
+    font-size: max(3vh, 3vw);
+}
+
+.photu-one{
+    background-image: url("pics/1720b22b-6c9f-46e7-9df1-d2e346c2f218 (1).jpeg");
+    background-size:cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 1000px){
+    .photu-one{
+        height: 350px;
+        width: 350px;
+    }
+    .home{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+.resume-button{
+    background-color: #0369a1;
+    margin: 20px;
+    width: 80px;
+}
+
+.resume-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 650px) {
+    .home{
+        flex-direction: column;
+        margin-top: 20vh;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .resume-button{
+        width: 60px;
+    }
+}
+
+/* Home End */
+
+/* About start */
+
+.about{
+    height: 100vh;
+    background-color: #60a5fa;
+}
+
+.about-heading{
+    margin:50px;
+    font-size: max(5vh, 5vw);
+    font-weight: bold;
+}
+
+.about-content{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: min(5vh, 5vw);
+}
+
+@media screen and (min-width: 750px) and (max-width: 1350px){
+    .about-content{
+        font-size: 3.5vw;
+    }
+}
+
+/*About end*/
+
+/*Work start*/
+
+.work{
+    background-color: #93c5fd;
+    min-height: 100vh;
+}
+
+.my-work{
+    margin:50px;
+    font-size: max(5vh, 5vw);
+    font-weight: bold;
+}
+
+.screenshot{
+    height: 188.8px;
+    width: 319.4px;
+}
+
+.card{
+    position: relative;
+    padding: 20px;
+    background-color: #bfdbfe;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 425px;
+    margin: 20px;
+}
+
+.card-title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.desc{
+    margin: 10px;
+}
+
+.link{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.live{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 10px;
+}
+
+.github{
+    position: absolute;
+    bottom: 30px;
+}
+
+.deck{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+/* Work end */
+
+/* Contact start */ 
+
+.contact{
+    background-color: #60a5fa;
+}
+
+.contact-desc{
+    max-width: 50%;
+    font-size: 3vw;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.contact-bottom{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.address{
+    display: flex;
+    align-items: center;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.social{
+    height: 40px;
+    width: 40px;
+}
+
+.flexx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socials{
+    margin-bottom: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 650px) {
+    .contact-details{
+        font-size: 10px;
+    }
+
+    .social{
+        height: 30px;
+        width: 30px;
+    }
+}

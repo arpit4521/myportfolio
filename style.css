@@ -39,7 +39,13 @@ body{
     max-width: 250px;
     justify-content: space-between;
 }
-
+.directions .about-header:hover,
+        .directions .work-header:hover,
+        .directions .contact-header:hover {
+            cursor: pointer;
+            background-color: #f0f0f0; 
+            color: #007BFF; 
+        }
 
 @media screen and (max-width: 920px) {
     .header{
@@ -83,7 +89,7 @@ body{
 }
 
 .photu-one{
-    background-image: url("pics/1720b22b-6c9f-46e7-9df1-d2e346c2f218 (1).jpeg");
+    background-image: url("Arpit Profile Pic.jpg");
     background-size:cover;
     height: 200px;
     width: 200px;
